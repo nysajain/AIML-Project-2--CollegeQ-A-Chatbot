@@ -1,7 +1,7 @@
 College Admission Q&A Bot
 
 Project Overview
-This project involves creating a chatbot, named AdmissionBot, to assist users with college admission-related queries. The bot is designed to answer questions about admission procedures, requirements, deadlines, and more. The project is divided into phases, with Phase 1 focusing on user interaction, contextual understanding, backend integration (optional), and robust error handling.
+This project involves creating a chatbot, named AdmissionBot, to assist users with college admission-related queries. The bot is designed to answer questions about admission procedures, requirements, deadlines, and more.
 
 Project Structure
 
