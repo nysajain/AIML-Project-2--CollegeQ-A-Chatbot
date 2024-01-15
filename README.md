@@ -19,7 +19,7 @@ Users are engaged in a conversation, allowing them to ask multiple questions in 
 Contextual Understanding:
 The bot is enhanced to understand context by remembering information from previous interactions, providing more personalized responses.
 
-Backend Integration (Optional):
+Backend Integration:
 There's an option to integrate the bot with a backend system to fetch real-time admission-related information.
 
 Error Handling and Feedback:
