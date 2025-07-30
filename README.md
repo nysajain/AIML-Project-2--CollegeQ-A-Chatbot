@@ -1,26 +1,67 @@
-College Admission Q&A Bot
+# 🎓 College Admission Q&A Bot
 
-Project Overview
-This project involves creating a chatbot, named AdmissionBot, to assist users with college admission-related queries. The bot is designed to answer questions about admission procedures, requirements, deadlines, and more.
+**AdmissionBot** is a conversational agent designed to assist prospective students with college‑admission questions—deadlines, requirements, procedures, and more.
 
-Project Structure
+## 🎯 Project Overview
+The goal of this project is to create a helpful information assistant for college applicants by:
+- Answering frequently asked questions.
+- Handling follow‑up questions within the same session (context awareness).
+- Delivering clear, concise responses.
 
-The project is implemented using Python and the ChatterBot library. The main components include:
+## 🧠 Methodology
+- Built in **Python** using the **ChatterBot** library with the **BestMatch** logic adapter.
+- Trained on:
+  - The ChatterBot English corpus.
+  - A custom dataset of admission‑related questions and answers stored in `data/admission_data.yml`.
+- Context memory allows multi‑step conversations (e.g., “What are the deadlines? … How do I apply?”).
 
-AdmissionBot Initialization:
-The bot is created using ChatterBot, configured with the BestMatch logic adapter for response selection.
+## 🗂 Project Structure
+```bash
+AIML-Project-2--CollegeQ-A-Chatbot/
+├── data/
+│ └── admission_data.yml # Domain-specific Q&A pairs
+├── admission_bot.py # Main chatbot script
+├── requirements.txt
+└── README.md
+```
 
-Training:
-The bot is trained using both the ChatterBot English language corpus and custom admission-related data.
+## 🛠 Installation
 
-User Interaction:
-Users are engaged in a conversation, allowing them to ask multiple questions in a single session.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nysajain/AIML-Project-2--CollegeQ-A-Chatbot.git
+   cd AIML-Project-2--CollegeQ-A-Chatbot
+2. **Install dependencies:**
 
-Contextual Understanding:
-The bot is enhanced to understand context by remembering information from previous interactions, providing more personalized responses.
+```bash
+pip install -r requirements.txt
+```
 
-Backend Integration:
-There's an option to integrate the bot with a backend system to fetch real-time admission-related information.
+## 🚀 Running the Bot
+Start the chatbot via:
 
-Error Handling and Feedback:
-Robust error handling is implemented for queries the bot cannot answer, providing helpful feedback to users.
+```bash
+python admission_bot.py
+```
+
+Sample questions to try:
+
+- “When is the application deadline?”
+
+- “What documents do I need?”
+
+- “How can I apply for scholarships?”
+
+## 📊 Results & Key Findings
+The bot can answer most standard admission queries based on the training data.
+
+Additional training data improves coverage and accuracy.
+
+Feedback from users can highlight missing questions and inform future updates.
+
+## 📂 Sample Dataset
+The file data/admission_data.yml includes example Q&A pairs. Feel free to expand it with more detailed or college‑specific questions.
+
+## 👩‍💻 Contributions
+Nysa Jain – developer and project lead.
+Contributions via issues or pull requests are welcome!
